@@ -3,12 +3,12 @@
  * @param {number} n
  * @return {string} the number as a string
  */
-var numberToString = function(n){
+function numberToString(n){
 
   var numStr = n.toString();
   console.log(numStr);
   return numStr;
-};
+}
 
 /**
  * Adds one to a given number.
